@@ -13,6 +13,9 @@ class Stack:
 
     def size(self):
         print(len(self.stack))
+    
+    def update(self, pos, elem):
+        self.stack[pos]=elem
 
 obj = Stack()
 obj.push(10)
@@ -22,5 +25,14 @@ obj.display()
 obj.remove()
 obj.display()
 obj.size()
+obj.update(1,300)
+obj.display()
 
 
+"""
+Answer:-
+[10, 20, 30]
+[10, 20]
+2
+[10, 300]
+"""
