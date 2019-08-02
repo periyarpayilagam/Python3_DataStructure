@@ -27,6 +27,6 @@ print("The octal number is: ", x)
 
 """
 Answer:-
-Enter any number126
-The octal number is:   7E
+Enter Decimal number126
+The Hexa Decimal number is:   7E
 """
